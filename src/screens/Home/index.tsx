@@ -1,5 +1,6 @@
 import React from "react";
 import { BackgroundImage, Container, Content } from "./styles";
+import ButtonEntry from "../../../components/ButtonEntry";
 
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
                 <BackgroundImage >
 
                 </BackgroundImage>
+                <ButtonEntry>
+                    
+                </ButtonEntry>
             </Content>
         </Container>
     )

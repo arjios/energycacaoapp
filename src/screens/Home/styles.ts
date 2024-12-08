@@ -27,9 +27,8 @@ export const BackgroundImage = styled(ImageBackground).attrs({
 })`
     align-items: center;
     border: 1px solid red;
-    flex: 1;
+    flex: 2;
     flex-direction: row;
-    height: ${height}px;
     justify-content: center;
     width: ${width}px;
 `

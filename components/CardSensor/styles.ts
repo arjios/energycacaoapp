@@ -2,7 +2,7 @@ import styled from 'styled-components/native'
 
 export const Container = styled.TouchableOpacity`
     align-items: center;
-    background-color: transparent;
+    background-color: #FFFFFF;
     border: 1px solid darkgreen;
     border-radius: 20px;
     flex-direction: row;
@@ -13,7 +13,8 @@ export const Container = styled.TouchableOpacity`
 
 export const Content = styled.View`
     align-items: flex-start;
-    background-color: transparent;
+    background-color: #FFFFFF;
+    border: 1px solid black ;
     height: 100px;
     justify-content: flex-start;
     padding: 16px;
@@ -22,14 +23,14 @@ export const Content = styled.View`
 
 export const TitleContainer = styled.View`
     align-items: flex-start;
-    background-color: transparent;
+    background-color: #FFFFFF;
     height: 20px;
     justify-content: flex-start;
     width: 100%;
 `
 
 export const CardTitle = styled.Text`
-    background-color: transparent;
+    background-color: #FFFFFF;
     color: #000000;
     font-size: 14px;
     font-weight: bold;

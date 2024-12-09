@@ -17,18 +17,19 @@ export const Content = styled(LinearGradient).attrs({
 })`
     align-items: center;
     background-color: #008000;
+    border: 2px solid black;
+    flex: 1;
     height: ${height}px;
     justify-content: center;
-    width: ${width}px;
+    width: 100%;
 `
 export const BackgroundImage = styled(ImageBackground).attrs({
     resizeMode: 'contain',
     source: require('../../assets/splash.png')
 })`
     align-items: center;
-    border: 1px solid red;
-    flex: 2;
     flex-direction: row;
+    height: 500px;
     justify-content: center;
-    width: ${width}px;
+    width:100%;
 `

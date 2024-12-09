@@ -4,7 +4,7 @@ import { CardTitle, CardValue, Container, Content, TitleContainer, ValueContaine
 type Props = {
     name: string,
     value: string,
-    unidade: string,
+    unidade: string
 }
 
 export default function CardSensor({name, value, unidade}: Props) {
